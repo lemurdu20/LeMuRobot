@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.*.local
+
+# Runtime data
+data/
+
+# Test coverage
+coverage/
+
+# IDE / Editor
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Design files (not needed in repo)
+*.psd
+*.ai
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp

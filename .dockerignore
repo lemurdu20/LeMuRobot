@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment files (NEVER include in image)
+.env
+.env.*
+*.env
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data directory (mounted as volume)
+data/
+
+# Tests and coverage
+*.test.ts
+coverage/
+jest.config.js
+
+# Config files not needed in image
+.editorconfig
+eslint.config.mjs
+
+# Docker files (not needed in image)
+Dockerfile
+docker-compose*.yml
+.dockerignore
+README.md
